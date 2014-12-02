@@ -1,0 +1,59 @@
+div#container{
+	width:800px;
+	height:800px;
+	margin:50px auto -7px auto;
+	background: black;
+}
+.square{
+	width: 25%;
+	height: 25%;
+	margin: 0 0 0 0;
+	padding: 0px;
+	border:none;
+	outline: gray solid 1px;
+
+
+	display:block;
+
+float:left;
+}
+.square8{
+	width:12.5%;
+	height:12.5%;
+	margin: 0 0 -4px 0;
+	padding: 0px;
+
+	display:inline-block;
+}
+
+.red{
+	background: lightblue;
+}
+
+button{
+	display: block;
+	width:100px;
+	height:50px;
+	margin: 25px auto;
+	padding: 5px;
+	background: black;
+	color: lightblue;
+	border-radius: 10px;
+}
+
+button:hover{
+	background: #4D4D4D;
+	color:#CEEFFF;
+}
+
+div#wrapper{
+	width: 800px;
+	margin: 10px auto;
+}
+h2.title{
+	text-align: center;
+}
+body{
+	background: #FFFFC2;
+	font-family: Verdana;
+}
