@@ -4,6 +4,13 @@ div#container{
 	margin:50px auto -7px auto;
 	background: black;
 }
+ul#menu{
+	text-align: center;
+	list-style-type: none;
+}
+ul#menu li{
+	display: inline;
+}
 .square{
 	width: 25%;
 	height: 25%;
@@ -31,14 +38,14 @@ float:left;
 }
 
 button{
-	display: block;
 	width:100px;
 	height:50px;
-	margin: 25px auto;
+	margin: 25px 10px 0  0;
 	padding: 5px;
 	background: black;
 	color: lightblue;
 	border-radius: 10px;
+
 }
 
 button:hover{
@@ -56,4 +63,8 @@ h2.title{
 body{
 	background: #FFFFC2;
 	font-family: Verdana;
+}
+
+.clear{
+	clear:both;
 }
