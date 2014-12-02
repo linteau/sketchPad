@@ -47,7 +47,7 @@ function createRandomColorGrid(gridSize){
 
 function randomColor(){
 					 $(".removable").remove();
-				 grid = prompt();
+				 grid = prompt("Choose your grid size between 1 - 100");
 
 				 createRandomColorGrid(grid);
 				 console.log(grid);
@@ -77,7 +77,7 @@ function createRegGrid(gridSize){
 
 	function regGame(){
 					 $(".removable").remove();
-				 grid = prompt();
+				 grid = prompt("Choose your grid size between 1 - 100");
 
 				 createRegGrid(grid);
 				 console.log(grid);
@@ -147,7 +147,7 @@ function createOpacityGrid(gridSize){
 
 	function opacityGame(){
 					 $(".removable").remove();
-				 grid = prompt();
+				 grid = prompt("Choose your grid size between 1 - 100");
 
 				 createOpacityGrid(grid);
 				 console.log(grid);

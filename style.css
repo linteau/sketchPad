@@ -1,15 +1,24 @@
 div#container{
 	width:800px;
 	height:800px;
-	margin:50px auto -7px auto;
+	margin:150px auto -7px auto;
 	background: white;
 }
 ul#menu{
+	float: right;
 	text-align: center;
 	list-style-type: none;
 }
 ul#menu li{
 	display: inline;
+}
+#nav{
+	height: 80px;
+	width: 780px;
+	background: lightblue;
+	padding: 10px;
+position: absolute;
+top: 0;
 }
 .square{
 	width: 25%;
@@ -39,7 +48,7 @@ float:left;
 
 button{
 	width:100px;
-	height:50px;
+	height:30px;
 	margin: 25px 10px 0  0;
 	padding: 5px;
 	background: black;
@@ -57,9 +66,13 @@ div#wrapper{
 	width: 800px;
 	margin: 10px auto;
 }
-h2.title{
-	text-align: center;
-}
+.title{
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: -2.5px;
+	text-shadow:2px 2px white;
+	}
 body{
 	background: #FFFFC2;
 	font-family: Verdana;
