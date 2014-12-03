@@ -46,11 +46,20 @@ function createRandomColorGrid(gridSize){
 
 
 function randomColor(){
-					 $(".removable").remove();
-				 grid = prompt("Choose your grid size between 1 - 100");
+		$(".removable").remove();
+	 	grid = prompt("Choose your grid size between 1 - 100");
 
-				 createRandomColorGrid(grid);
-				 console.log(grid);
+	 if(grid < 101 && grid > 0){
+	 	 createRandomColorGrid(grid);
+	 console.log(grid);
+	 }
+	 else if(grid < 1)
+	 {
+	 	alert('Sorry, choose a larger grid between 1 - 100.')
+	 }
+	 else{
+	 	alert('Sorry, choose a smaller grid between 1 - 100.')
+	 }				 
 	}
 
 
@@ -76,11 +85,21 @@ function createRegGrid(gridSize){
 }
 
 	function regGame(){
-					 $(".removable").remove();
+				$(".removable").remove();
 				 grid = prompt("Choose your grid size between 1 - 100");
-
-				 createRegGrid(grid);
+				 if(grid < 101 && grid > 0){
+				 	 createRegGrid(grid);
 				 console.log(grid);
+				 }
+				 else if(grid < 1)
+				 {
+				 	alert('Sorry, choose a larger grid between 1 - 100.')
+				 }
+				 else{
+				 	alert('Sorry, choose a smaller grid between 1 - 100.')
+				 }
+
+				
 	}
 
 // functions for opacity game
@@ -146,9 +165,19 @@ function createOpacityGrid(gridSize){
 }
 
 	function opacityGame(){
-					 $(".removable").remove();
-				 grid = prompt("Choose your grid size between 1 - 100");
+	 $(".removable").remove();
+	 grid = prompt("Choose your grid size between 1 - 100");
 
-				 createOpacityGrid(grid);
-				 console.log(grid);
+
+	 if(grid < 101 && grid > 0){
+	 	createOpacityGrid(grid);
+		console.log(grid);
+	 }
+	 else if(grid < 1)
+	 {
+	 	alert('Sorry, choose a larger grid between 1 - 100.')
+	 }
+	 else{
+	 	alert('Sorry, choose a smaller grid 1 - 100.')
+	 }	
 	}

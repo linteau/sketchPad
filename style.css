@@ -1,7 +1,7 @@
 div#container{
 	width:800px;
 	height:800px;
-	margin:150px auto -7px auto;
+	margin:130px auto -7px auto;
 	background: white;
 }
 ul#menu{
@@ -20,6 +20,26 @@ ul#menu li{
 position: absolute;
 top: 0;
 }
+#footer{
+	height: 30px;
+	width: 780px;
+	background: lightblue;
+	padding: 10px;
+position: absolute;
+bottom: 0;
+font-size: small;
+}
+#footer ul{
+	float: right;
+	text-align: center;
+	list-style-type: none;
+}
+
+#footer li{
+	display: inline;
+	margin-right: 5px;
+}
+	
 .square{
 	width: 25%;
 	height: 25%;
@@ -30,8 +50,7 @@ top: 0;
 
 
 	display:block;
-
-float:left;
+	float:left;
 }
 .square8{
 	width:12.5%;
@@ -54,7 +73,6 @@ button{
 	background: black;
 	color: lightblue;
 	border-radius: 10px;
-
 }
 
 button:hover{
@@ -80,4 +98,8 @@ body{
 
 .clear{
 	clear:both;
+}
+a{
+	text-decoration: none;
+	color:gray;
 }
